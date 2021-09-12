@@ -30,6 +30,9 @@ function App() {
           <Route path='/' exact>
             <Redirect to='/welcome' />
           </Route>
+          <Route path='/MelonMe'>
+            <Redirect to='/welcome' />
+          </Route>
           <Route path='/welcome'>
             <StartPage />
           </Route>
