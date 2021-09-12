@@ -1,6 +1,6 @@
 {
   "name": "melonme-client",
-  "homepage": "http://jasmiina.github.io/MelonMe",
+  "homepage": "https://jasmiina.github.io/MelonMe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
