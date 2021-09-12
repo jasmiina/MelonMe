@@ -30,9 +30,6 @@ function App() {
           <Route path='/' exact>
             <Redirect to='/welcome' />
           </Route>
-          <Route path='/MelonMe'>
-            <Redirect to='/welcome' />
-          </Route>
           <Route path='/welcome'>
             <StartPage />
           </Route>
@@ -49,7 +46,7 @@ function App() {
             <ContactPage />
           </Route>
           <Route path='*'>
-            <NotFoundPage />
+            <StartPage />
           </Route>
         </Switch>
 
