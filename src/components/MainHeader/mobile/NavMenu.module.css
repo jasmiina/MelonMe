@@ -1,0 +1,32 @@
+.navMenu {
+  width: 100%;
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 3.4rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+.navMenu li {
+  max-height: 4rem;
+  margin: 1rem;
+}
+
+.header-links {
+  border: none;
+  background-color: transparent;
+  margin: 2rem;
+  font-size: 1.3rem;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #243537;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+.header-links:hover {
+  color: #526364;
+}
+.header-links:active {
+  color: #222c2c;
+}

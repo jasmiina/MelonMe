@@ -1,0 +1,15 @@
+.button {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 5rem;
+  background-color: transparent;
+  border: none;
+  text-decoration: 'none';
+}
+
+.h1 {
+  font-size: 2rem;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  color: #0d1f22;
+  letter-spacing: 0.1rem;
+}

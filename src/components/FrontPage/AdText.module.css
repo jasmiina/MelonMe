@@ -1,0 +1,17 @@
+.text-container {
+  text-align: left;
+  max-width: 40rem;
+}
+
+.text-container h3 {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4rem;
+  color: #0d1f22;
+}
+
+.text-container  h4 {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 5rem;
+  background-color: #e8b9ab;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(116, 47, 56, 0.25);
+}
+
+.hamburger-menu-button {
+  border: none;
+  margin-right: 2rem;
+  margin-left: 0.5rem;
+  background-color: transparent;
+}
+
+.hamburger-menu-icon {
+  min-width: 2rem;
+  min-height: 2rem;
+  color: #243537;
+  background-color: #F9DDD5;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+.hamburger-menu-icon:hover {
+  background-color: #FFF3EF;
+}
+.hamburger-menu-icon:active {
+  background-color: #e09891;
+}
