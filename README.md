@@ -1,3 +1,5 @@
+(Site is not accessible at the moment)
+
 To access the site:
 1. Go to http://jasmiina.github.io/MelonMe
 2. Click on the MelonMe-logo to get to the front page (due to issues between github and react-router, the routing does not initially work)
