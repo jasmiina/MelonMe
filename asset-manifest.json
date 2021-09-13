@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MelonMe/static/css/main.9dfbdf71.chunk.css",
+    "main.js": "/MelonMe/static/js/main.a463d8ee.chunk.js",
+    "main.js.map": "/MelonMe/static/js/main.a463d8ee.chunk.js.map",
+    "runtime-main.js": "/MelonMe/static/js/runtime-main.ecbb9a53.js",
+    "runtime-main.js.map": "/MelonMe/static/js/runtime-main.ecbb9a53.js.map",
+    "static/js/2.36e81b50.chunk.js": "/MelonMe/static/js/2.36e81b50.chunk.js",
+    "static/js/2.36e81b50.chunk.js.map": "/MelonMe/static/js/2.36e81b50.chunk.js.map",
+    "static/js/3.29a054a1.chunk.js": "/MelonMe/static/js/3.29a054a1.chunk.js",
+    "static/js/3.29a054a1.chunk.js.map": "/MelonMe/static/js/3.29a054a1.chunk.js.map",
+    "index.html": "/MelonMe/index.html",
+    "static/css/main.9dfbdf71.chunk.css.map": "/MelonMe/static/css/main.9dfbdf71.chunk.css.map",
+    "static/js/2.36e81b50.chunk.js.LICENSE.txt": "/MelonMe/static/js/2.36e81b50.chunk.js.LICENSE.txt",
+    "static/media/melon-startpage-graphic.8eb6591b.png": "/MelonMe/static/media/melon-startpage-graphic.8eb6591b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecbb9a53.js",
+    "static/js/2.36e81b50.chunk.js",
+    "static/css/main.9dfbdf71.chunk.css",
+    "static/js/main.a463d8ee.chunk.js"
+  ]
+}
