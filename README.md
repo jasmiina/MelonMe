@@ -1,8 +1,5 @@
-(Site is not accessible at the moment)
 
-To access the site:
-1. Go to http://jasmiina.github.io/MelonMe
-2. Click on the MelonMe-logo to get to the front page (due to issues between github and react-router, the routing does not initially work)
+To access the site, go to http://jasmiina.github.io/MelonMe
 
 MelonMe is a social media website where users can view and share pictures of their healthy meals to inspire others and share recipes.
 The site is in progress.
@@ -20,4 +17,4 @@ The site is in progress.
 - Users should be able to create posts into their own feeds and also into a common feed 
 - Users should also be able to view posts
 - Better feedback to user actions (signup, login, logout)
-...and more
+- ...and more
