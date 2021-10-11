@@ -6,7 +6,7 @@ import APIstr from '../../sensitive-info/signupAPI';
 
 function SignUpForm(props) {
 
-  const history = useHistory();
+  const history = useHistory(); //used to redirect user after signup
 
   const emailInputRef = useRef();
   const passwordInputRef = useRef();
@@ -65,7 +65,6 @@ function SignUpForm(props) {
     })
       .then((data) => {
         history.push('/form?show=login');
-        console.log(data);
       })
       .catch((err) => {
         alert(err.message);

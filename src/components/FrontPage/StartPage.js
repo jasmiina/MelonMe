@@ -1,17 +1,14 @@
 import React from "react";
 
-import { useMediaQuery } from 'react-responsive';
-
 import classes from './StartPage.module.css';
 import mobileClasses from './mobile/MobileStartPage.module.css';
 import AdText from "./AdText";
 import melonImage from '../../assets/melon-startpage-graphic.png';
+import useMediaQueries from '../../hooks/use-media-queries';
 
 function StartPage() {
 
-  const isTabletDevice = useMediaQuery({
-    query: "(max-device-width: 948px)",
-  });
+  const isTabletDevice = useMediaQueries('tablet');
 
   return (
     <div

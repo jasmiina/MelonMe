@@ -1,6 +1,7 @@
 import React from "react";
 
 function ExplorePage() {
+
   return (
     <React.Fragment>
       <h3>Explore</h3>

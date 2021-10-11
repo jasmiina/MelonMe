@@ -8,7 +8,7 @@ import APIstr from '../../sensitive-info/loginAPI';
 
 function LoginForm(props) {
 
-  const history = useHistory();
+  const history = useHistory(); //used to redirect user after login
 
   const dispatch = useDispatch();
   function dispatchLogIn(token){
@@ -52,8 +52,7 @@ function LoginForm(props) {
       }
     })
       .then((data) => {
-        console.log(data);
-        dispatchLogIn('temp');
+        dispatchLogIn(data.idToken);
         history.push('/explore');
       })
       .catch((err) => {

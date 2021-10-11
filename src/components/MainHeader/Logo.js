@@ -1,16 +1,12 @@
 import { Link } from 'react-router-dom';
-import { useMediaQuery } from 'react-responsive';
 
+import useMediaQueries from '../../hooks/use-media-queries';
 import classes from './Logo.module.css';
 
 function Logo() {
 
-  const isTabletDevice = useMediaQuery({
-    query: "(max-device-width: 948px)",
-  });
-  const isMobileDevice = useMediaQuery({
-    query: "(max-device-width: 550px)",
-  });
+  const isTabletDevice = useMediaQueries('tablet');
+  const isMobileDevice = useMediaQueries('mobile');
 
   let style = {};
   if(isTabletDevice){

@@ -2,7 +2,6 @@ import React from "react";
 
 
 import { Route, Redirect, Switch } from 'react-router-dom';
-import { useMediaQuery } from 'react-responsive';
 
 import StartPage from "./components/FrontPage/StartPage";
 import FormPage from "./components/FormPage/FormPage";
@@ -11,19 +10,18 @@ import AboutPage from "./components/HeaderPages/AboutPage";
 import ContactPage from "./components/HeaderPages/ContactPage";
 import Header from "./components/MainHeader/Header";
 import wrapperClass from './components/UI/wrapper.module.css';
-
 import MobileHeader from "./components/MainHeader/mobile/MobileHeader";
 import NotFoundPage from "./components/NotFoundPage/NotFoundPage";
+import useMediaQueries from './hooks/use-media-queries';
 
+//TODO: Remember to add auth checks for routes that can only be used after logging in
 
 function App() {
 
-  const isSmallerDevice = useMediaQuery({
-    query: "(max-device-width: 948px)",
-  });
+  const isSmallerDevice = useMediaQueries('tablet');
 
   return (
-    <div>
+    <React.Fragment>
       {isSmallerDevice ? <MobileHeader /> : <Header />}
       <main className={wrapperClass.wrapper}>
         <Switch>
@@ -49,9 +47,8 @@ function App() {
             <StartPage />
           </Route>
         </Switch>
-
       </main>
-    </div>
+    </React.Fragment>
   );
 }
 

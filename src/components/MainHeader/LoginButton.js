@@ -1,20 +1,16 @@
 import React from 'react';
 
-import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
 import buttonStyle from '../UI/Buttons.module.css'
 import { logoutHandler } from '../../store/auth-slice';
+import useMediaQueries from '../../hooks/use-media-queries';
 
 function LoginButton() {
 
-  const isTabletDevice = useMediaQuery({
-    query: "(max-device-width: 948px)",
-  });
-  const isMobileDevice = useMediaQuery({
-    query: "(max-device-width: 550px)",
-  });
+  const isTabletDevice = useMediaQueries('tablet');
+  const isMobileDevice = useMediaQueries('mobile');
 
   //Modify button style based on device width:
   let style = {
